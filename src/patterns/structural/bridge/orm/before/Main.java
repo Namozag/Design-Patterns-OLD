@@ -13,7 +13,7 @@ public class Main {
 
     public static void main(String[] args) {
     
-        PersistenceProvider repo = new PersistenceProviderImpl();
+        PersistenceImplementor repo = new PersistenceImplementorImpl();
         
         repo.persist("Bogy");
         repo.persist("Tamtam");

@@ -9,7 +9,7 @@ package patterns.structural.bridge.orm.before;
  *
  * @author Hany
  */
-public class PersistenceProviderImpl implements PersistenceProvider{
+public class PersistenceImplementorImpl implements PersistenceImplementor{
 
     @Override
     public void persist(Object obj) {
