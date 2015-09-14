@@ -24,8 +24,8 @@ public class Test {
         
         controller.setDispatcher(new ClassNameDispatcher());
         
-        controller.request("patterns.behavioral.frontcontroller.HomePage");
-        controller.request("patterns.behavioral.frontcontroller.ContactPage");
+        controller.request("patterns.behavioral.frontcontroller.website.pages.HomePage");
+        controller.request("patterns.behavioral.frontcontroller.website.pages.ContactPage");
         controller.request("xyz");
         
     }

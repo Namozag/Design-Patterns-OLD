@@ -5,6 +5,8 @@
  */
 package patterns.behavioral.frontcontroller.website;
 
+import patterns.behavioral.frontcontroller.website.pages.*;
+
 /**
  *
  * @author Hany
@@ -13,12 +15,16 @@ public class UriDispatcher implements Dispatcher {
 
     @Override
     public void dispatch(String uri) {
-        if(uri.equals("home")) {
-            new HomePage().display();
-        } else if(uri.equals("contact")) {
-            new ContactPage().display();
-        } else {
-            new NotFoundPage().display();
+        switch (uri) {
+            case "home":
+                new HomePage().display();
+                break;
+            case "contact":
+                new ContactPage().display();
+                break;
+            default:
+                new NotFoundPage().display();
+                break;
         }
     }
     

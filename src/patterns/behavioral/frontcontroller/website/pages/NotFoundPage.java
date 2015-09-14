@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package patterns.behavioral.frontcontroller.website;
+package patterns.behavioral.frontcontroller.website.pages;
+
+import patterns.behavioral.frontcontroller.website.Page;
 
 /**
  *

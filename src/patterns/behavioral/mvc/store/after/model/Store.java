@@ -3,10 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package patterns.behavioral.mvc.store.after;
+package patterns.behavioral.mvc.store.after.model;
 
 import java.util.ArrayList;
 import java.util.List;
+import patterns.behavioral.mvc.store.after.Item;
 
 /**
  *

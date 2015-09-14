@@ -19,7 +19,8 @@ public class CanonPrinter extends Colleague implements Printer {
 
     @Override
     public void print(String text) {
-        System.out.println("CanonPrinter: " + text);
+        System.out.println("Printing ...");
+        mediator.input(this, text);
     }
     
 }

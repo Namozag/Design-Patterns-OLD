@@ -5,6 +5,11 @@
  */
 package patterns.behavioral.mvc.store.after;
 
+import patterns.behavioral.mvc.store.after.view.SimpleView;
+import patterns.behavioral.mvc.store.after.view.PrettyView;
+import patterns.behavioral.mvc.store.after.model.AllItemsModel;
+import patterns.behavioral.mvc.store.after.model.TopSellingItemsModel;
+
 /**
  *
  * @author Hany

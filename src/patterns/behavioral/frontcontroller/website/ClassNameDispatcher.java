@@ -5,10 +5,9 @@
  */
 package patterns.behavioral.frontcontroller.website;
 
+import patterns.behavioral.frontcontroller.website.pages.NotFoundPage;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *

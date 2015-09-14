@@ -15,6 +15,7 @@ public class BinqScanner implements Scanner {
     
     private Computer computer;
 
+    @Override
     public void setComputer(Computer computer) {
         this.computer = computer;
     }

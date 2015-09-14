@@ -36,7 +36,7 @@ public class CopyMediator {
         if(device == scanner) {
             printer.print(text);
         } else if(device == printer) {
-            computer.input(text);
+            computer.input(device, text);
         }
     }
     

@@ -3,17 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package patterns.behavioral.frontcontroller.website;
+package patterns.behavioral.frontcontroller.website.pages;
+
+import patterns.behavioral.frontcontroller.website.Page;
 
 /**
  *
  * @author Hany
  */
-public class HomePage implements Page{
+public class ContactPage implements Page{
 
     @Override
     public void display() {
-        System.out.println("Home Page");
+        System.out.println("Please contact me");
     }
     
 }

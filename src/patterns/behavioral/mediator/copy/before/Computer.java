@@ -23,15 +23,16 @@ public class Computer {
     }
     
     public void copy() {
+        System.out.println(scanner.getClass().getSimpleName() + " : scan");
         scanner.scan();
     }
     
     public void input(IODevice device, String text) {
-        System.out.println("Computer IN " + device.getClass().getSimpleName());
         if(device == scanner) {
+            System.out.println(printer.getClass().getSimpleName() + " : print");
             printer.print(text);
         } else if(device == printer) {
-            System.out.println(text);
+            System.out.println(device.getClass().getSimpleName() + " : " + text);
         }
     }
     

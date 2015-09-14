@@ -20,8 +20,8 @@ public class Computer extends Colleague {
         mediator.copy();
     }
     
-    public void input(String text) {
-        System.out.println(text);
+    public void input(IODevice device,String text) {
+        System.out.println(device.getClass().getSimpleName() + " : " + text);
     }
     
 }
